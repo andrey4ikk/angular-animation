@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+  
+.container { 
+  height: 768px;
+  background-color: #1a3151; 
+  display: flex;
+  }
+
+.leftSliderSection img {
+  width: 250px;
+  height: 420px;
+  }
+
+  .leftSliderSection {
+    display: flex;
+    margin: 150px 60px 30px 60px;
+    color: #fff;
+    width: 250px;
+    height: 420px;
+  }
+  
+  .centerSliderSection {
+    width: 430px;
+    height: 150px;
+    color: #fff;
+    align-self: center;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  #dashed-line {
+    width: 880px;
+    height: 150px;
+    opacity: 0.4;
+    position: absolute;
+    left: 410px;
+    top: 85px;
+  }
+  
+  .rightSliderSection {
+    position: absolute;
+    right: 225px;
+    top: 220px;
+  }
+
+  .rightSliderSection img {
+    animation: pulse 2s infinite;
+    border-radius: 50%;
+    animation-delay: 3s;
+  }
+  
+  @keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 #9ca7ba;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 40px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10 rgba(204,169,44, 0);
+    }
+  }
