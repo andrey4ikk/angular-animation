@@ -32,7 +32,7 @@
   }
 
   #dashed-line {
-    width: 880px;
+    width:915px;
     height: 150px;
     opacity: 0.4;
     position: absolute;
@@ -42,16 +42,35 @@
   
   .rightSliderSection {
     position: absolute;
-    right: 225px;
-    top: 220px;
+    right: 257px;
+    top: 302px;
   }
 
   .rightSliderSection img {
+    height: 174px;
+    width: 174px;
+    opacity: 0.5;
     animation: pulse 2s infinite;
     border-radius: 50%;
-    animation-delay: 3s;
+    animation-delay: 1s;
   }
   
+  .rightSliderSectionTwo {
+    height: 100px;
+    position: absolute;
+    right: 194px;
+    top: 202px;
+  }
+
+.rightSliderSectionTwo p {
+  color: #fff9c3;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
   @keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 0 0 #9ca7ba;
